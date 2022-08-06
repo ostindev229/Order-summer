@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+body{
+	background-color: #D6E1FF;
+	 margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.loin{
+	width: 450px;
+	height: 620px;
+	border-radius: 20px;
+	background-color: white;
+	 margin: 0 auto;
+	 margin-top: 10px;
+}
+.bordure{
+	 border-top-left-radius: 20px;
+	 border-top-right-radius: 20px;
+}
+.retouche{
+	text-align: center;
+	font-size: 28px;
+	margin: 0px;
+	margin-top: 45px;
+	font-weight: 900;
+	color: #1F2E55;
+}
+.couleur,.end{
+    color:#717FA6 ;
+    font-size: 18px;
+    text-align: center;
+}
+.loib{
+	width: 354px;
+	height: 98px;
+	background-color: #F7F9FF;
+	margin-right: 48px;
+	margin-left: 48px;
+	border-radius: 11px;
+	padding: 25px 0px 25px 25px ;
+	}
+	.cercle{
+		background-color:#DFE6FB ;
+		border-radius: 50%;
+		padding: 14px 12px 12px 14px ;
+	}
+
+
+.cercle_contain{
+	height: 25px;
+	width: 25px;
+	
+}
+.ensemble{
+	display: flex;
+}
+.haut{
+	color:  #1F2E55;
+	font-weight: 900;
+	font-size: 17px;
+	margin-left: 10px;
+	margin-top:2px ;
+
+}
+.marge{
+	text-align: right;
+	color: blue;
+	text-decoration: underline;
+	font-weight: 900;
+	margin-left: 100px;
+	font-size: 15px;
+
+}
+.marge1{
+	margin-left: 60px;
+	margin-top: -19px;
+	color:#717FA6 ;
+    font-size: 15px;
+}
+input[type="submit"]{
+	outline: none;
+	border-radius: 12px;
+	background-color: blue;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	width: 354px;
+	height: 42px;
+	margin-right: 48px;
+	margin-left: 48px;
+	font-weight: 900;
+	box-shadow: 0 0 5px 0 blue;
+
+}
+input[type="submit"]:hover {
+background-color: #43c;
+}
+
+/********************************************Responsive*******************************************/
+@media screen and (max-width: 768px){
+	.loin{
+		width: 245px;
+		height: 395px;
+
+	}
+	.bordure{
+		width: 245px;
+	}
+	.retouche{
+		font-size: 17px;
+		margin-top: 15px;
+	}
+	.couleur, .end{
+		font-size: 13px;
+	}
+.haut{
+	font-size: 12px;
+}
+.marge{
+	font-size: 10px;
+	margin-left: 44px;
+}
+.marge1{
+	font-size: 9px;
+	margin-left: 39px;
+}
+.loib{
+	width: 220px;
+	height: 64px;
+	background-color: #F7F9FF;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 9px 0px 14px 9px ;
+	}
+	.cercle{
+		padding: 4px 4px 3px 4px ;
+		width: 29px;
+		height: 29px;
+		
+
+	}
+	.cercle_contain{
+		width: 11px;
+		height: 11px;
+		margin: 4px 5px 4px 5px;
+	}
+	.ensemble{
+		margin: 3px 0px 3px 0px;
+	}
+	input[type="submit"]{
+	border-radius: 9px;
+	width: 220px;
+	height: 31px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 8px;
+	box-shadow: 0 0 4px 0 blue;	
+	}
+	body{
+		margin: 0px;
+
+
+	}
+}
